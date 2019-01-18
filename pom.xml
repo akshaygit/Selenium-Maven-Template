@@ -170,7 +170,7 @@
                                 <webdriver.edge.driver>${webdriver.edge.driver}</webdriver.edge.driver>
                             </systemPropertyVariables>
                         </configuration>
-                      <!--projectFile>${project.basedir}/BPEL_API_PROJECT.xml</projectFile>
+                      <!--projectFile>${project.basedir}/BPEL_API_PROJECT.xml</projectFile>-->
 							<testSuite>Driver_Suite</testSuite>
 							<testCase>Parallel Execution Monitor</testCase>
 							<outputFolder>${project.build.directory}/surefire-reports</outputFolder>
