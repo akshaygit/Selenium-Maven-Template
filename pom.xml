@@ -170,23 +170,6 @@
                                 <webdriver.edge.driver>${webdriver.edge.driver}</webdriver.edge.driver>
                             </systemPropertyVariables>
                         </configuration>
-                      <!--projectFile>${project.basedir}/BPEL_API_PROJECT.xml</projectFile>-->
-							<testSuite>Driver_Suite</testSuite>
-							<testCase>Parallel Execution Monitor</testCase>
-							<outputFolder>${project.build.directory}/surefire-reports</outputFolder>
-							<junitReport>true</junitReport>
-							<printReport>true</printReport>
-							<reportFormat>HTML</reportFormat>
-							<projectProperties>
-								<value>Product=${test.Product}</value>
-								<value>Environment=${test.Env}</value>
-								<value>TestingScopeArray=${test.TestingScopeArray}</value>
-								<value>InputThreadCount=${test.InputThreadCount}</value>
-								<value>DBExplicitTimeOut=${test.DBExplicitTimeOut}</value>
-								<value>Smoke_Endpoint_URL=${test.Smoke_Endpoint_URL}</value>
-								<value>MaxDBAutomationTimeStampValue=${test.MaxDBAutomationTimeStampValue}</value>
-								<value>DataAutomationReplaceTNFlag=${test.DataAutomationReplaceTNFlag}</value>
-							</projectProperties>
                         <executions>
                             <execution>
                                 <goals>
